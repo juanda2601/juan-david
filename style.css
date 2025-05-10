@@ -1,0 +1,170 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0; 
+    padding: 0;
+}
+header{
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+}
+header h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px 18px 12px 18px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: #000;
+    background-color: #FFF;
+    padding: 12px 18px 12px 18px;
+    border-radius: 10px;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+    position: absolute;
+    border-radius: 3dvb;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+section{
+    padding: 80px 0;
+}
+.inicio2{
+    padding: 160px;
+}
+footer{
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 20opx 0;
+}
+.formulario{
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.formulario h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.campo{
+    margin-bottom: 20px;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #006eb3;
+    color: #FFF;
+    font-weight: 700;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #007bff;
+    box-shadow: 0 010px rgba(0, 162, 255, 0.9);
+}
+#inicio{
+    background-image: url(img/fondo.png);
+    color: #FFF;
+    font-size: 30px;
+    background-attachment: fixed;
+}
+
+:root{
+  scroll-behavior: smooth;
+}
+
+/* boton */
+
+/* from uiverse.io by vinodjangid07 */
+.button {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+
+}
+
+.svgIcon {
+    width: 12px;
+    transition-duration: 0.3s;
+}
+
+.svgIcon path{
+    fill: white;
+}
+
+.button:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: rgb(181, 160,2559);
+    align-items: center;
+}
+
+.button:hover .svgIcon {
+    /* width: 20px; */
+    transition-duration: 0.3s;
+    transform: translateY(-200%);
+}
+
+.button::before {
+    position: fixed;
+    bottom: -20px;
+    content: "back to top";
+    color: white;
+    /* transition-duration: .3s; */
+    font-size: 0px;
+}
+
+.button:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    bottom: unset;
+    /* transform: translatey(-30px); */
+    transition-duration: 0.3s;
+}
